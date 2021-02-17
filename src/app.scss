@@ -13,9 +13,9 @@
 }
 //parte della nav
 .container-nav{
-    background-color: red;
+    background-color: $backgraundNav;
     &-top{
-        background-color: yellowgreen;
+        // background-color: yellowgreen;
         margin: 0 auto;
         width: 1200px;
         
@@ -26,12 +26,37 @@
         .list{
             display: flex;
             list-style: none;
-            li i{
+            li {
+              i{
                 margin: 5px 9px;
                 color: $colorsIconsButton;
                 cursor: pointer;
+              }
+              .text-user{
+                  color: $colorTextNav;
+                  margin: 0 10px;
+              }
             }
         }
     }
 }
-
+.contaienre-nav-bottom{
+    display: flex;
+    justify-content: space-around;
+    color:$colorTextNav;
+    .link-list{
+        display: flex;
+        list-style: none;
+        cursor: pointer;
+        margin: 10px;
+        li {
+            margin: 0 15px;
+            .link-text {
+            }
+            i{
+    
+                color: $colorAngelDow;
+            }
+        }
+    }
+}

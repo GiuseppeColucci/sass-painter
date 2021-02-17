@@ -5,10 +5,9 @@
 }
 
 .container-nav {
-  background-color: red;
+  background-color: black;
 }
 .container-nav-top {
-  background-color: yellowgreen;
   margin: 0 auto;
   width: 1200px;
 }
@@ -24,4 +23,26 @@
   margin: 5px 9px;
   color: #009cff;
   cursor: pointer;
+}
+.container-nav-box .list li .text-user {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.contaienre-nav-bottom {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+.contaienre-nav-bottom .link-list {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.contaienre-nav-bottom .link-list li {
+  margin: 0 15px;
+}
+.contaienre-nav-bottom .link-list li i {
+  color: #878787;
 }
