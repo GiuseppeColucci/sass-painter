@@ -63,10 +63,9 @@
     display: flex;
     justify-content: flex-end;
     &-center{
+        display: flex;
         height: 505px;
-        width: 810px;
         padding: 20px;
-        background-color: yellowgreen;
         margin-right: 340px;
         .heade-box-center{
             .text-Violet{
@@ -84,5 +83,11 @@
                 }
             }
         }
+    }
+    //secondo box
+    .element-black-box{
+        width: 300px;
+        background-color: orange;
+        margin-left: 20px;
     }
 }

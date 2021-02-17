@@ -53,10 +53,9 @@
   justify-content: flex-end;
 }
 .container-header-center {
+  display: flex;
   height: 505px;
-  width: 810px;
   padding: 20px;
-  background-color: yellowgreen;
   margin-right: 340px;
 }
 .container-header-center .heade-box-center .text-Violet {
@@ -72,4 +71,9 @@
 }
 .container-header-center .heade-box-center .elemnt-center-list li i {
   color: #878787;
+}
+.container-header .element-black-box {
+  width: 300px;
+  background-color: orange;
+  margin-left: 20px;
 }
