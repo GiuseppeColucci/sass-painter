@@ -90,17 +90,22 @@
         width: 370px;
         background-color: $backgraundNav;
         margin-left: 20px;
+        padding-top: 40px;
         .box-price{
             display: flex;
             justify-content: space-between;
-            &-left{
+            padding: 0 20px;
+            .box-left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 h1{
                     color: white;
                 }
             }
-            &-right{
-                height: 100px;
-                width: 100px;
+            .box-right{
+                height: 80px;
+                width: 80px;
 
                 img{
                     width: 100%;
@@ -108,5 +113,21 @@
                 }
             }
         }
+      .dow{
+        padding: 0 20px;
+        P{
+            color: $colorAngelDow;
+            
+        }
+        button{
+            width: 150px;
+            font-size: 19px;
+            border: 0;
+            color: white;
+            background-color: $colorsIconsButton;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+      }
     }
 }
