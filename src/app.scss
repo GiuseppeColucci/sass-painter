@@ -51,12 +51,21 @@
         margin: 10px;
         li {
             margin: 0 15px;
-            .link-text {
-            }
             i{
-    
                 color: $colorAngelDow;
             }
         }
+    }
+}
+//parte header
+.container-header{
+    background-image:url($backGraundHeader );
+    display: flex;
+    justify-content: flex-end;
+    &-center{
+        height: 505px;
+        width: 810px;
+        background-color: yellowgreen;
+        margin-right: 340px;
     }
 }

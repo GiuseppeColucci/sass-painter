@@ -46,3 +46,15 @@
 .contaienre-nav-bottom .link-list li i {
   color: #878787;
 }
+
+.container-header {
+  background-image: url("../img/hero-pe-8.jpg");
+  display: flex;
+  justify-content: flex-end;
+}
+.container-header-center {
+  height: 505px;
+  width: 810px;
+  background-color: yellowgreen;
+  margin-right: 340px;
+}
