@@ -1,6 +1,37 @@
+//collegamento dei file
 @import"color";
 @import"variable";
-.prova{
-    height: 100px;
-    background-color: $colorsss;
+//utilitis
+
+
+
+//parte progetto
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+//parte della nav
+.container-nav{
+    background-color: red;
+    &-top{
+        background-color: yellowgreen;
+        margin: 0 auto;
+        width: 1200px;
+        
+    }
+    &-box{
+        display: flex;
+        justify-content: end;
+        .list{
+            display: flex;
+            list-style: none;
+            li i{
+                margin: 5px 9px;
+                color: $colorsIconsButton;
+                cursor: pointer;
+            }
+        }
+    }
+}
+

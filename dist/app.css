@@ -1,4 +1,27 @@
-.prova {
-  height: 100px;
-  background-color: orange;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-nav {
+  background-color: red;
+}
+.container-nav-top {
+  background-color: yellowgreen;
+  margin: 0 auto;
+  width: 1200px;
+}
+.container-nav-box {
+  display: flex;
+  justify-content: end;
+}
+.container-nav-box .list {
+  display: flex;
+  list-style: none;
+}
+.container-nav-box .list li i {
+  margin: 5px 9px;
+  color: #009cff;
+  cursor: pointer;
 }
