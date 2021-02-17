@@ -65,7 +65,24 @@
     &-center{
         height: 505px;
         width: 810px;
+        padding: 20px;
         background-color: yellowgreen;
         margin-right: 340px;
+        .heade-box-center{
+            .text-Violet{
+                color: $colorNew;
+            }
+            .elemnt-center-list{
+                list-style: none;
+                margin-top: 15px;
+                li{
+                    cursor: pointer;
+                    margin-bottom: 10px;
+                    i{
+                        color:$colorAngelDow;
+                    }
+                }
+            }
+        }
     }
 }

@@ -55,6 +55,21 @@
 .container-header-center {
   height: 505px;
   width: 810px;
+  padding: 20px;
   background-color: yellowgreen;
   margin-right: 340px;
+}
+.container-header-center .heade-box-center .text-Violet {
+  color: #b936b2;
+}
+.container-header-center .heade-box-center .elemnt-center-list {
+  list-style: none;
+  margin-top: 15px;
+}
+.container-header-center .heade-box-center .elemnt-center-list li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.container-header-center .heade-box-center .elemnt-center-list li i {
+  color: #878787;
 }
